@@ -1,0 +1,102 @@
+{
+ "vp": {
+  "Authors": {
+   "green": 16,
+   "yellow": 4,
+   "red": 0,
+   "none": 5,
+   "other": 0
+  },
+  "Aurora": {
+   "green": 23,
+   "yellow": 3,
+   "red": 17,
+   "none": 0,
+   "other": 0
+  },
+  "BlueBreeze": {
+   "green": 1,
+   "yellow": 0,
+   "red": 3,
+   "none": 0,
+   "other": 1
+  },
+  "Aya": {
+   "green": 10,
+   "yellow": 1,
+   "red": 6,
+   "none": 1,
+   "other": 0
+  },
+  "EliteNest": {
+   "green": 0,
+   "yellow": 0,
+   "red": 0,
+   "none": 25,
+   "other": 0
+  },
+  "Kensington": {
+   "green": 64,
+   "yellow": 4,
+   "red": 11,
+   "none": 83,
+   "other": 2
+  },
+  "LuxeManor": {
+   "green": 4,
+   "yellow": 2,
+   "red": 3,
+   "none": 5,
+   "other": 0
+  },
+  "Yado": {
+   "green": 15,
+   "yellow": 1,
+   "red": 5,
+   "none": 0,
+   "other": 0
+  },
+  "Royal Vista": {
+   "green": 0,
+   "yellow": 0,
+   "red": 0,
+   "none": 48,
+   "other": 0
+  },
+  "SkyHomes": {
+   "green": 30,
+   "yellow": 8,
+   "red": 33,
+   "none": 15,
+   "other": 0
+  },
+  "Utopix": {
+   "green": 15,
+   "yellow": 1,
+   "red": 3,
+   "none": 0,
+   "other": 0
+  },
+  "MKB": {
+   "green": 0,
+   "yellow": 0,
+   "red": 0,
+   "none": 1,
+   "other": 1
+  },
+  "Zarrien": {
+   "green": 2,
+   "yellow": 1,
+   "red": 4,
+   "none": 1,
+   "other": 0
+  }
+ },
+ "inter": {
+  "green": 91,
+  "yellow": 13,
+  "red": 13,
+  "none": 12,
+  "other": 0
+ }
+}
