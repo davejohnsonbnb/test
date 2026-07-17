@@ -1,102 +1,51 @@
 {
+ "date": "2026-07-17",
  "vp": {
   "Authors": {
-   "green": 16,
-   "yellow": 4,
-   "red": 0,
-   "none": 5,
-   "other": 0
+   "won": 20
   },
   "Aurora": {
-   "green": 23,
-   "yellow": 3,
-   "red": 17,
-   "none": 0,
-   "other": 0
+   "won": 23
   },
   "BlueBreeze": {
-   "green": 1,
-   "yellow": 0,
-   "red": 3,
-   "none": 0,
-   "other": 1
+   "won": 1
   },
   "Aya": {
-   "green": 10,
-   "yellow": 1,
-   "red": 6,
-   "none": 1,
-   "other": 0
+   "won": 10
   },
   "EliteNest": {
-   "green": 0,
-   "yellow": 0,
-   "red": 0,
-   "none": 25,
-   "other": 0
+   "won": 7
   },
   "Kensington": {
-   "green": 64,
-   "yellow": 4,
-   "red": 11,
-   "none": 83,
-   "other": 2
+   "won": 64
   },
   "LuxeManor": {
-   "green": 4,
-   "yellow": 2,
-   "red": 3,
-   "none": 5,
-   "other": 0
+   "won": 4
   },
   "Yado": {
-   "green": 15,
-   "yellow": 1,
-   "red": 5,
-   "none": 0,
-   "other": 0
+   "won": 15
   },
   "Royal Vista": {
-   "green": 0,
-   "yellow": 0,
-   "red": 0,
-   "none": 48,
-   "other": 0
+   "won": 61
   },
   "SkyHomes": {
-   "green": 30,
-   "yellow": 8,
-   "red": 33,
-   "none": 15,
-   "other": 0
+   "won": 30
   },
   "Utopix": {
-   "green": 15,
-   "yellow": 1,
-   "red": 3,
-   "none": 0,
-   "other": 0
+   "won": 15
   },
   "MKB": {
-   "green": 0,
-   "yellow": 0,
-   "red": 0,
-   "none": 1,
-   "other": 1
+   "won": 0
   },
   "Zarrien": {
-   "green": 2,
-   "yellow": 1,
-   "red": 4,
-   "none": 1,
-   "other": 0
+   "won": 2
   }
  },
  "inter": {
-  "green": 91,
-  "yellow": 13,
-  "red": 13,
-  "none": 12,
-  "other": 0
+  "won": 93,
+  "won_received_thb": 1670252,
+  "ongoing": 13,
+  "lost": 13,
+  "pending": 10
  }
 }
