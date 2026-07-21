@@ -1,5 +1,5 @@
 {
- "date": "2026-07-17",
+ "date": "2026-07-20",
  "vp": {
   "Authors": {
    "won": 20
@@ -42,10 +42,10 @@
   }
  },
  "inter": {
-  "won": 93,
-  "won_received_thb": 1670252,
-  "ongoing": 13,
+  "won": 95,
+  "ongoing": 12,
   "lost": 13,
-  "pending": 10
+  "pending": 24,
+  "won_received_thb": 1699196
  }
 }
