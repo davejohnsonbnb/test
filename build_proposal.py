@@ -144,10 +144,10 @@ story.append(Spacer(1,4))
 
 price_rows = [
     [Paragraph("Portfolio size", thcell), Paragraph("Per unit / month", thcell), Paragraph("Applies to", thcell)],
-    [Paragraph("1–3 units", tcell), Paragraph("650 AED", tcellb), Paragraph("Pilot &amp; early growth (through Sep)", tcell)],
-    [Paragraph("4–10 units", tcell), Paragraph("550 AED", tcellb), Paragraph("Units 4 through 10", tcell)],
-    [Paragraph("11–25 units", tcell), Paragraph("450 AED", tcellb), Paragraph("Units 11 through 25", tcell)],
-    [Paragraph("26+ units", tcell), Paragraph("350 AED", tcellb), Paragraph("Units 26 and beyond", tcell)],
+    [Paragraph("1–10 units", tcell), Paragraph("400 AED", tcellb), Paragraph("Pilot &amp; early growth", tcell)],
+    [Paragraph("11–20 units", tcell), Paragraph("370 AED", tcellb), Paragraph("Units 11 through 20", tcell)],
+    [Paragraph("21–30 units", tcell), Paragraph("350 AED", tcellb), Paragraph("Units 21 through 30", tcell)],
+    [Paragraph("30+ units", tcell), Paragraph("TBD", tcellb), Paragraph("Confirmed together as you scale", tcell)],
 ]
 pt = Table(price_rows, colWidths=[40*mm, 38*mm, 86*mm])
 pt.setStyle(TableStyle([
@@ -168,8 +168,7 @@ slab = Table([[Paragraph(
     "<b>Minimum monthly engagement.</b> Our standard floor to run a portfolio is <b>3,000 AED / month</b>. "
     "For you we'll bring that down to <b>2,500 AED / month</b>. Alternatively, you're welcome to hold off and "
     "start with us once a few units are onboard, so the per-unit fees above stand on their own — whichever "
-    "you prefer. Cleaning and maintenance are billed at cost as a pass-through (Comfy Life ~210 AED per 1-bed "
-    "— Dave is negotiating a preferred rate) and are separate from the management fee.", body)]],
+    "you prefer.", body)]],
     colWidths=[164*mm])
 slab.setStyle(TableStyle([
     ("BACKGROUND",(0,0),(-1,-1), LIGHT),
@@ -197,8 +196,6 @@ road_rows = [
     [Paragraph("Milestone", thcell), Paragraph("Units", thcell), Paragraph("Indicative monthly fee", thcell)],
     [Paragraph("Now — pilot", tcell), Paragraph("1", tcell), Paragraph("2,500 AED (minimum engagement)", tcellb)],
     [Paragraph("1 September 2026", tcell), Paragraph("3", tcell), Paragraph("2,500 AED (minimum engagement)", tcellb)],
-    [Paragraph("End of 2026", tcell), Paragraph("15–20", tcell), Paragraph("~8,000–10,300 AED", tcellb)],
-    [Paragraph("2027", tcell), Paragraph("~50", tcell), Paragraph("~21,000 AED", tcellb)],
 ]
 rt = Table(road_rows, colWidths=[52*mm, 26*mm, 86*mm])
 rt.setStyle(TableStyle([
