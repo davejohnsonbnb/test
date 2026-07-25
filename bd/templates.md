@@ -9,13 +9,15 @@ Keep it short, specific, human. One ask. No corporate mass-mail tone.
 > AirCover (and Guesty) for short-let / villa property managers. We handle the
 > whole thing end-to-end — evidence package, filing within 72h of checkout,
 > escalation to Airbnb, and resubmitting denials — targeting a 70%+ approval
-> rate. Success-fee basis: you only pay on what we recover.
+> rate. Pricing is a PURE SUCCESS FEE — 30% of what we recover, and nothing
+> else: no upfront, no setup fee, no per-property charge, no monthly retainer.
+> The client pays only after the money lands in their account.
 >
 > LEAD HOOK (use this — it's the opener that converts): a FREE audit of the
 > client's last 60 days of checkouts to find damage that was never claimed and
 > is still inside AirCover's 14-day filing window = money we can recover this
 > week, before they've paid us anything.
-> [CONFIRM: exact success-fee %; add a proof stat once you have one.]
+> [Add a proof stat once you have one, e.g. recovery totals across the book.]
 
 ---
 
@@ -28,8 +30,8 @@ Running {size} short-lets, a chunk of guest-damage never gets claimed on AirCove
 the 14-day filing window closes and the money's just gone.
 
 VirtuPro's Claims Recovery team does this end-to-end for managers like you: evidence,
-filing within 72h, escalation, resubmitting denials — success-fee only, so you pay
-just on what we recover.
+filing within 72h, escalation, resubmitting denials — 30% success fee only, no
+upfront and no setup, so you pay just on what we recover.
 
 Easiest start: we'll **audit {company}'s last 60 days of checkouts free** and file
 anything still inside the window this week. No commitment, no cost to look.
