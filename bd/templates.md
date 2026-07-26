@@ -13,10 +13,12 @@ Keep it short, specific, human. One ask. No corporate mass-mail tone.
 > else: no upfront, no setup fee, no per-property charge, no monthly retainer.
 > The client pays only after the money lands in their account.
 >
-> LEAD HOOK (use this — it's the opener that converts): a FREE audit of the
-> client's last 60 days of checkouts to find damage that was never claimed and
-> is still inside AirCover's 14-day filing window = money we can recover this
-> week, before they've paid us anything.
+> LEAD HOOK (the opener that converts): a FREE 60-day audit that shows the client
+> exactly how much claimable damage they let EXPIRE unclaimed — because AirCover's
+> filing window is only 14 DAYS from checkout, so anything not filed in time is
+> gone forever. That loss number is the pain. We file anything still inside the
+> 14-day window now, then make sure no window ever closes again. Speed sells:
+> every day they wait, more of their money expires.
 > [Add a proof stat once you have one, e.g. recovery totals across the book.]
 
 ---
