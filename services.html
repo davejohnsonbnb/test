@@ -11,7 +11,16 @@
 <body>
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a href="index.html" class="brand"><span class="brand-mark">🧼</span><span>Sabaify</span></a>
+      <a href="index.html" class="brand" aria-label="Sabaify — home">
+        <svg class="brand-logo" viewBox="0 0 48 48" role="img" aria-label="Sabaify logo">
+          <defs><linearGradient id="sbgH" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fb6a2"/><stop offset="1" stop-color="#0e7d70"/></linearGradient></defs>
+          <rect x="3" y="3" width="42" height="42" rx="13" fill="url(#sbgH)"/>
+          <path d="M24 12c5 5.6 7.6 9.3 7.6 12.8a7.6 7.6 0 1 1-15.2 0C16.4 21.3 19 17.6 24 12Z" fill="#fff"/>
+          <circle cx="20.5" cy="26.5" r="2.4" fill="#7fe0d1"/>
+          <path d="M33 13l.9 2.5 2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9z" fill="#bff3ea"/>
+        </svg>
+        <span class="brand-name">Sabaify</span>
+      </a>
       <nav aria-label="Primary">
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
         <ul class="nav-links">
@@ -34,85 +43,143 @@
     </section>
 
     <section class="section">
-      <div class="container grid" style="gap:1.5rem;">
-        <article class="service-row" id="turnover">
-          <div class="s-icon">🔄</div>
-          <div>
-            <h3>Turnover Cleaning</h3>
-            <p>Our core service — resetting your rental between guests so it's flawless for every check-in. Consistent, fast, and reliable, following a photo-checked checklist.</p>
-            <ul>
-              <li>Full clean of all rooms, kitchen and bathrooms</li>
-              <li>Fresh linens &amp; beds made hotel-style</li>
-              <li>Towels, toiletries &amp; amenities restocked</li>
-              <li>Rubbish removed &amp; property left guest-ready</li>
-              <li>Damage &amp; low-stock reporting with photos</li>
-            </ul>
-          </div>
-        </article>
+      <div class="container">
+        <div class="services-grid">
 
-        <article class="service-row" id="deep">
-          <div class="s-icon">✨</div>
-          <div>
-            <h3>Deep Cleaning</h3>
-            <p>A thorough, top-to-bottom reset for seasonal refreshes, long-stay checkouts, or getting a new listing photo-ready.</p>
-            <ul>
-              <li>Inside appliances — oven, fridge, microwave</li>
-              <li>Grout, tiles, limescale &amp; hard-water buildup</li>
-              <li>Behind &amp; under furniture, skirting, vents</li>
-              <li>Windows, tracks, doors and high-touch detail</li>
-            </ul>
-          </div>
-        </article>
+          <!-- Turnover -->
+          <article class="service-card" id="turnover">
+            <div class="service-media m-turnover">
+              <span class="price-badge">฿800–1,500 / turnover</span>
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 44V26a4 4 0 0 1 4-4h44a4 4 0 0 1 4 4v18"/>
+                <path d="M4 44h56"/><path d="M8 44v6M56 44v6"/>
+                <rect x="14" y="27" width="16" height="9" rx="4"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Turnover Cleaning</h3>
+              <p class="price-line">฿800 – ฿1,500 per turnover <small>· varies by property size</small></p>
+              <p>Our core service — resetting your rental between guests so it's flawless for every check-in. Fast, consistent and photo-checked.</p>
+              <ul>
+                <li>Full clean of all rooms, kitchen &amp; bathrooms</li>
+                <li>Fresh linens &amp; beds made hotel-style</li>
+                <li>Towels, toiletries &amp; amenities restocked</li>
+                <li>Rubbish removed &amp; property left guest-ready</li>
+              </ul>
+              <div class="service-actions"><a href="contact.html?service=Turnover+Cleaning#contact" class="btn btn-primary btn-sm">Get a quote</a></div>
+            </div>
+          </article>
 
-        <article class="service-row" id="furniture">
-          <div class="s-icon">🛋️</div>
-          <div>
-            <h3>Furniture Treatment</h3>
-            <p>Keep sofas, upholstery and mattresses fresh, hygienic and looking new — protecting your furnishings and your guests' comfort.</p>
-            <ul>
-              <li>Upholstery &amp; sofa deep cleaning</li>
-              <li>Mattress cleaning &amp; sanitising</li>
-              <li>Stain treatment &amp; fabric refresh</li>
-              <li>Dust-mite &amp; allergen reduction</li>
-            </ul>
-          </div>
-        </article>
+          <!-- Deep -->
+          <article class="service-card" id="deep">
+            <div class="service-media m-deep">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M26 26h12v24a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4z"/>
+                <path d="M28 26v-5h8v5"/><path d="M38 17h9M38 22h7M38 12h7"/>
+                <path d="M14 40l1.4 3.6L19 45l-3.6 1.4L14 50l-1.4-3.6L9 45l3.6-1.4z"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Deep Cleaning</h3>
+              <p class="price-line">Quoted per property</p>
+              <p>A thorough, top-to-bottom reset for seasonal refreshes, long-stay checkouts, or getting a new listing photo-ready.</p>
+              <ul>
+                <li>Inside appliances — oven, fridge, microwave</li>
+                <li>Grout, tiles, limescale &amp; hard-water buildup</li>
+                <li>Behind &amp; under furniture, skirting, vents</li>
+                <li>Windows, tracks, doors &amp; high-touch detail</li>
+              </ul>
+              <div class="service-actions"><a href="contact.html?service=Deep+Cleaning#contact" class="btn btn-primary btn-sm">Get a quote</a></div>
+            </div>
+          </article>
 
-        <article class="service-row" id="odor">
-          <div class="s-icon">🌬️</div>
-          <div>
-            <h3>Odor Removal</h3>
-            <p>Guest smoked indoors, or a lingering damp or cooking smell threatening your reviews? We neutralise odors at the source — not just mask them.</p>
-            <ul>
-              <li>Cigarette &amp; smoke odor elimination</li>
-              <li>Damp, musty &amp; mildew smell treatment</li>
-              <li>Cooking &amp; pet odor neutralising</li>
-              <li>Safe, guest-friendly treatments</li>
-            </ul>
-          </div>
-        </article>
+          <!-- Furniture -->
+          <article class="service-card" id="furniture">
+            <div class="service-media m-furniture">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 32v-6a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v6"/>
+                <rect x="10" y="32" width="44" height="14" rx="5"/>
+                <path d="M14 46v5M50 46v5"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Furniture Treatment</h3>
+              <p class="price-line">Quoted per item / property</p>
+              <p>Keep sofas, upholstery and mattresses fresh, hygienic and looking new — protecting your furnishings and your guests' comfort.</p>
+              <ul>
+                <li>Upholstery &amp; sofa deep cleaning</li>
+                <li>Mattress cleaning &amp; sanitising</li>
+                <li>Stain treatment &amp; fabric refresh</li>
+                <li>Dust-mite &amp; allergen reduction</li>
+              </ul>
+              <div class="service-actions"><a href="contact.html?service=Furniture+Treatment#contact" class="btn btn-primary btn-sm">Get a quote</a></div>
+            </div>
+          </article>
 
-        <article class="service-row" id="hvac">
-          <div class="s-icon">❄️</div>
-          <div>
-            <h3>HVAC &amp; Aircon Treatment</h3>
-            <p>In Thailand's climate, clean aircon is essential. We clean and sanitise units for cooler, healthier air and fewer guest complaints — and lower running costs.</p>
-            <ul>
-              <li>Aircon filter &amp; coil cleaning</li>
-              <li>Sanitising to remove mold, dust &amp; smells</li>
-              <li>Improved cooling &amp; energy efficiency</li>
-              <li>Routine maintenance schedules available</li>
-            </ul>
-          </div>
-        </article>
+          <!-- Odor -->
+          <article class="service-card" id="odor">
+            <div class="service-media m-odor">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M8 24h26a6 6 0 1 0-6-6"/>
+                <path d="M8 34h34a6 6 0 1 1-6 6"/>
+                <path d="M8 44h20"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Odor Removal</h3>
+              <p class="price-line">Quoted per treatment</p>
+              <p>Guest smoked indoors, or a lingering damp or cooking smell threatening your reviews? We neutralise odors at the source — not just mask them.</p>
+              <ul>
+                <li>Cigarette &amp; smoke odor elimination</li>
+                <li>Damp, musty &amp; mildew smell treatment</li>
+                <li>Cooking &amp; pet odor neutralising</li>
+                <li>Safe, guest-friendly treatments</li>
+              </ul>
+              <div class="service-actions"><a href="contact.html?service=Odor+Removal#contact" class="btn btn-primary btn-sm">Get a quote</a></div>
+            </div>
+          </article>
+
+          <!-- HVAC -->
+          <article class="service-card" id="hvac">
+            <div class="service-media m-hvac">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="10" y="16" width="44" height="20" rx="4"/>
+                <path d="M10 28h44"/>
+                <path d="M20 41c0 3-1 5-4 6M32 41c0 4-1 6-4 8M44 41c0 3-1 5-4 6"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>HVAC &amp; Aircon Treatment</h3>
+              <p class="price-line">Quoted per unit</p>
+              <p>In Thailand's climate, clean aircon is essential. We clean and sanitise units for cooler, healthier air, fewer complaints and lower running costs.</p>
+              <ul>
+                <li>Aircon filter &amp; coil cleaning</li>
+                <li>Sanitising to remove mold, dust &amp; smells</li>
+                <li>Improved cooling &amp; energy efficiency</li>
+                <li>Routine maintenance schedules available</li>
+              </ul>
+              <div class="service-actions"><a href="contact.html?service=HVAC+%26+Aircon+Treatment#contact" class="btn btn-primary btn-sm">Get a quote</a></div>
+            </div>
+          </article>
+
+          <!-- Package CTA card -->
+          <article class="service-card" style="justify-content:center;">
+            <div class="service-body" style="text-align:center;justify-content:center;">
+              <h3>Need a custom package?</h3>
+              <p>Mix any of our services into a plan that fits your property and booking schedule. Tell us what you need and we'll quote it — free.</p>
+              <div class="service-actions"><a href="contact.html#contact" class="btn btn-primary">Get a free quote</a></div>
+            </div>
+          </article>
+
+        </div>
       </div>
     </section>
 
     <section class="section cta-band">
       <div class="container">
-        <h2>Build your perfect cleaning package</h2>
-        <p>Mix any of our services into a plan that fits your property and booking schedule. Tell us what you need and we'll quote it — free.</p>
-        <a href="contact.html" class="btn btn-white">Get a free quote</a>
+        <h2>Ready for effortless turnovers?</h2>
+        <p>Get a fast, free quote for your short-term rental in Phuket, Koh Samui or anywhere in Thailand.</p>
+        <a href="contact.html#contact" class="btn btn-white">Get a free quote</a>
       </div>
     </section>
   </main>
@@ -121,7 +188,16 @@
     <div class="container">
       <div class="footer-top">
         <div>
-          <div class="brand"><span class="brand-mark">🧼</span><span>Sabaify</span></div>
+          <div class="brand">
+            <svg class="brand-logo" viewBox="0 0 48 48" role="img" aria-label="Sabaify logo">
+              <defs><linearGradient id="sbgF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fb6a2"/><stop offset="1" stop-color="#0e7d70"/></linearGradient></defs>
+              <rect x="3" y="3" width="42" height="42" rx="13" fill="url(#sbgF)"/>
+              <path d="M24 12c5 5.6 7.6 9.3 7.6 12.8a7.6 7.6 0 1 1-15.2 0C16.4 21.3 19 17.6 24 12Z" fill="#fff"/>
+              <circle cx="20.5" cy="26.5" r="2.4" fill="#7fe0d1"/>
+              <path d="M33 13l.9 2.5 2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9z" fill="#bff3ea"/>
+            </svg>
+            <span class="brand-name">Sabaify</span>
+          </div>
           <p class="footer-about">Professional cleaning and property care for short-term rentals across Phuket, Koh Samui and Thailand. We make your rental sabai.</p>
         </div>
         <div class="footer-col">

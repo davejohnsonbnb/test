@@ -20,3 +20,17 @@ if (toggle && links) {
 // Current year in footer
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// Pre-select the contact form's service when arriving from a "Get a quote" button
+// (e.g. contact.html?service=Turnover+Cleaning)
+const params = new URLSearchParams(window.location.search);
+const requestedService = params.get("service");
+if (requestedService) {
+  const select = document.querySelector('.contact-form select[name="service"]');
+  if (select) {
+    const match = Array.from(select.options).find(
+      (o) => o.value === requestedService || o.text === requestedService
+    );
+    if (match) select.value = match.value;
+  }
+}
