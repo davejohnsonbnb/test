@@ -58,24 +58,37 @@
   </header>
 
   <main>
-    <!-- Hero -->
+    <!-- Hero (split with photo) -->
     <section class="hero">
-      <div class="container hero-inner">
-        <p class="eyebrow">Short-term rental cleaning · Phuket · Koh Samui · Thailand</p>
-        <h1>We make your rental<br /><span class="grad">sabai.</span></h1>
-        <p class="lead">
-          Professional turnover cleaning and property care for Airbnb &amp; short-term rentals — so
-          every guest walks into a fresh, spotless, five-star space. You relax; we handle the rest.
-        </p>
-        <div class="hero-actions">
-          <a href="contact.html#contact" class="btn btn-primary">Get a free quote</a>
-          <a href="services.html" class="btn btn-ghost">Our services</a>
+      <div class="container hero-split">
+        <div class="hero-copy">
+          <p class="eyebrow">Short-term rental cleaning · Phuket · Koh Samui</p>
+          <h1>We make your rental <span class="grad">sabai.</span></h1>
+          <p class="lead">
+            Professional turnover cleaning and property care for Airbnb &amp; short-term rentals in
+            Thailand — so every guest walks into a fresh, spotless, five-star space.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html#contact" class="btn btn-primary">Get a free quote</a>
+            <a href="services.html" class="btn btn-ghost">Our services</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Photo-checked cleans</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> On-time turnovers</span>
+            <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 7.7 8 9 4.6-1.3 8-4 8-9V6z"/></svg> English &amp; Thai</span>
+          </div>
         </div>
-        <div class="trust"><span class="stars">★★★★★</span><p>Trusted by hosts to protect their reviews</p></div>
+        <div class="hero-media">
+          <img src="assets/img/hero.jpg" alt="A fresh, spotless, guest-ready bedroom cleaned by Sabaify" />
+          <div class="float-card">
+            <span class="fc-star">★★★★★</span>
+            <span><strong>Five-star clean</strong><span>Guest-ready, every stay</span></span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Trust / stat bar -->
+    <!-- Trust bar -->
     <section class="section-sm">
       <div class="container">
         <div class="stat-bar">
@@ -87,7 +100,7 @@
       </div>
     </section>
 
-    <!-- Services overview -->
+    <!-- Services (photo cards) -->
     <section class="section" id="services">
       <div class="container">
         <div class="section-head">
@@ -96,42 +109,76 @@
           <p class="section-sub">One professional team for every turnover — and everything beyond it.</p>
         </div>
         <div class="grid grid-3">
-          <article class="card">
-            <svg class="card-ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 44V26a4 4 0 0 1 4-4h44a4 4 0 0 1 4 4v18"/><path d="M4 44h56"/><path d="M8 44v6M56 44v6"/><rect x="14" y="27" width="16" height="9" rx="4"/></svg>
-            <h3>Turnover Cleaning</h3><p>Guest-ready between check-out and check-in — spotless, restocked, every time.</p>
-            <a class="card-link" href="services.html#turnover">Learn more →</a>
+          <article class="service-card">
+            <div class="service-media"><img src="assets/img/svc-turnover.jpg" alt="Turnover cleaning — fresh made bed" loading="lazy" /></div>
+            <div class="service-body">
+              <h3>Turnover Cleaning</h3>
+              <p>Guest-ready between check-out and check-in — spotless, restocked, every time.</p>
+              <div class="service-actions"><a class="card-link" href="services.html#turnover">Learn more →</a></div>
+            </div>
           </article>
-          <article class="card">
-            <svg class="card-ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M26 26h12v24a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4z"/><path d="M28 26v-5h8v5"/><path d="M38 17h9M38 22h7M38 12h7"/><path d="M14 40l1.4 3.6L19 45l-3.6 1.4L14 50l-1.4-3.6L9 45l3.6-1.4z"/></svg>
-            <h3>Deep Cleaning</h3><p>Top-to-bottom resets for seasonal refreshes and long-stay checkouts.</p>
-            <a class="card-link" href="services.html#deep">Learn more →</a>
+          <article class="service-card">
+            <div class="service-media"><img src="assets/img/svc-deep.jpg" alt="Deep cleaning with professional products" loading="lazy" /></div>
+            <div class="service-body">
+              <h3>Deep Cleaning</h3>
+              <p>Top-to-bottom resets for seasonal refreshes and long-stay checkouts.</p>
+              <div class="service-actions"><a class="card-link" href="services.html#deep">Learn more →</a></div>
+            </div>
           </article>
-          <article class="card">
-            <svg class="card-ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M16 32v-6a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v6"/><rect x="10" y="32" width="44" height="14" rx="5"/><path d="M14 46v5M50 46v5"/></svg>
-            <h3>Furniture Treatment</h3><p>Upholstery, sofas and mattress care that keep furnishings fresh and hygienic.</p>
-            <a class="card-link" href="services.html#furniture">Learn more →</a>
+          <article class="service-card">
+            <div class="service-media"><img src="assets/img/svc-furniture.jpg" alt="Furniture and upholstery treatment" loading="lazy" /></div>
+            <div class="service-body">
+              <h3>Furniture Treatment</h3>
+              <p>Upholstery, sofas and mattress care that keep furnishings fresh and hygienic.</p>
+              <div class="service-actions"><a class="card-link" href="services.html#furniture">Learn more →</a></div>
+            </div>
           </article>
-          <article class="card">
-            <svg class="card-ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24h26a6 6 0 1 0-6-6"/><path d="M8 34h34a6 6 0 1 1-6 6"/><path d="M8 44h20"/></svg>
-            <h3>Odor Removal</h3><p>Smoke, damp and lingering smells neutralised at the source.</p>
-            <a class="card-link" href="services.html#odor">Learn more →</a>
+          <article class="service-card">
+            <div class="service-media"><img src="assets/img/svc-odor.jpg" alt="Fresh, odor-free bedroom" loading="lazy" /></div>
+            <div class="service-body">
+              <h3>Odor Removal</h3>
+              <p>Smoke, damp and lingering smells neutralised at the source.</p>
+              <div class="service-actions"><a class="card-link" href="services.html#odor">Learn more →</a></div>
+            </div>
           </article>
-          <article class="card">
-            <svg class="card-ico" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="16" width="44" height="20" rx="4"/><path d="M10 28h44"/><path d="M20 41c0 3-1 5-4 6M32 41c0 4-1 6-4 8M44 41c0 3-1 5-4 6"/></svg>
-            <h3>HVAC &amp; Aircon Treatment</h3><p>Aircon cleaning and sanitising for cool, clean, healthy air.</p>
-            <a class="card-link" href="services.html#hvac">Learn more →</a>
+          <article class="service-card">
+            <div class="service-media"><img src="assets/img/svc-hvac.jpg" alt="Wall-mounted air conditioner in a clean room" loading="lazy" /></div>
+            <div class="service-body">
+              <h3>HVAC &amp; Aircon Treatment</h3>
+              <p>Aircon cleaning and sanitising for cool, clean, healthy air.</p>
+              <div class="service-actions"><a class="card-link" href="services.html#hvac">Learn more →</a></div>
+            </div>
           </article>
-          <article class="card" style="display:grid;place-content:center;text-align:center;background:var(--bg-alt);">
-            <h3 style="margin:0 0 .5rem;">Need a package?</h3>
-            <p style="margin-bottom:1rem;">We tailor a plan to your property and booking schedule.</p>
-            <a class="btn btn-primary btn-sm" href="contact.html#contact">Get a quote</a>
+          <article class="service-card" style="background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;">
+            <div class="service-body" style="justify-content:center;text-align:center;">
+              <h3 style="color:#fff;">Need a custom package?</h3>
+              <p style="color:rgba(255,255,255,0.9);">Mix any services into a plan that fits your property and booking schedule.</p>
+              <div class="service-actions"><a class="btn btn-white btn-sm" href="contact.html#contact">Get a free quote</a></div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- What's included -->
+    <!-- Our work gallery -->
     <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Guest-ready results</p>
+          <h2>The standard we deliver</h2>
+          <p class="section-sub">Bright, spotless, five-star spaces your guests will love — and review.</p>
+        </div>
+        <div class="gallery">
+          <figure><img src="assets/img/gal-bedroom.jpg" alt="Spotless bedroom" loading="lazy" /></figure>
+          <figure><img src="assets/img/gal-bath.jpg" alt="Clean modern bathroom" loading="lazy" /></figure>
+          <figure><img src="assets/img/gal-living.jpg" alt="Fresh living room" loading="lazy" /></figure>
+          <figure><img src="assets/img/gal-supplies.jpg" alt="Professional cleaning supplies" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- What's included -->
+    <section class="section">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">No detail missed</p>
@@ -156,7 +203,7 @@
     </section>
 
     <!-- Why us -->
-    <section class="section" id="why">
+    <section class="section section-alt" id="why">
       <div class="container split">
         <div class="about-text">
           <p class="eyebrow">Why hosts choose Sabaify</p>
@@ -170,17 +217,14 @@
             <li>English &amp; Thai communication</li>
           </ul>
         </div>
-        <div class="stat-grid">
-          <div class="stat"><strong>5★</strong><span>Cleanliness scores</span></div>
-          <div class="stat"><strong>On time</strong><span>Every turnover</span></div>
-          <div class="stat"><strong>24h</strong><span>Booking response</span></div>
-          <div class="stat"><strong>100%</strong><span>Guest-ready guarantee</span></div>
+        <div class="feature-media">
+          <img src="assets/img/gal-living.jpg" alt="A bright, freshly cleaned living space" loading="lazy" />
         </div>
       </div>
     </section>
 
     <!-- How it works -->
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Simple to work with</p>
@@ -190,6 +234,33 @@
           <div class="step"><span class="num">1</span><h3>Tell us about your property</h3><p>Share your location, size and how often you need turnovers.</p></div>
           <div class="step"><span class="num">2</span><h3>Get a clear quote</h3><p>We send an honest, fixed price — no surprises.</p></div>
           <div class="step"><span class="num">3</span><h3>We keep it guest-ready</h3><p>We clean on schedule and report back, so you can relax.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our promise -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our promise</p>
+          <h2>What every host can count on</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <svg class="promise-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 7.7 8 9 4.6-1.3 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Photo-checked, every clean</h3>
+            <p>We document each turnover so you can see it's guest-ready — even when you're managing remotely.</p>
+          </article>
+          <article class="card">
+            <svg class="promise-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <h3>On time, every turnover</h3>
+            <p>We work around your check-in and check-out times so your calendar is never at risk.</p>
+          </article>
+          <article class="card">
+            <svg class="promise-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.8 6.2 21l1.1-6.5L2.6 9.8l6.5-.9z"/></svg>
+            <h3>Your reviews, protected</h3>
+            <p>Consistent, five-star-standard cleaning that keeps your ratings high and your bookings coming.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -204,21 +275,6 @@
           <span class="area-pill">📍 Koh Samui</span>
           <span class="area-pill">📍 Surrounding islands</span>
           <span class="area-pill">📍 More areas across Thailand</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Reviews -->
-    <section class="section" id="reviews">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">In their words</p>
-          <h2>Hosts who sleep easier now</h2>
-        </div>
-        <div class="grid grid-3">
-          <blockquote class="quote"><p>“My cleanliness rating went straight to 5 stars. They never miss a turnover, even last-minute.”</p><footer>— Superhost, Phuket</footer></blockquote>
-          <blockquote class="quote"><p>“A guest smoked in my condo and I panicked. Sabaify removed the smell completely before the next check-in.”</p><footer>— Host, Koh Samui</footer></blockquote>
-          <blockquote class="quote"><p>“I manage 6 units remotely. Sabaify handles everything and sends photos — total peace of mind.”</p><footer>— Property manager, Phuket</footer></blockquote>
         </div>
       </div>
     </section>
