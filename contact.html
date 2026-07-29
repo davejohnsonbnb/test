@@ -62,8 +62,14 @@
           </div>
         </div>
 
-        <!-- NOTE: Replace the form 'action' below with your free Formspree endpoint (see README) -->
-        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <!-- Powered by FormSubmit (no account needed). First submission sends an
+             activation link to contact@sabaify.com — click it once to switch it on. -->
+        <form class="contact-form" action="https://formsubmit.co/contact@sabaify.com" method="POST">
+          <input type="hidden" name="_subject" value="New quote request — Sabaify website" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://sabaify.com/thank-you.html" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <label>Name
             <input type="text" name="name" required placeholder="Your name" />
           </label>
