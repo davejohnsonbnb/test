@@ -26,7 +26,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 const params = new URLSearchParams(window.location.search);
 const requestedService = params.get("service");
 if (requestedService) {
-  const select = document.querySelector('.contact-form select[name="service"]');
+  const select = document.querySelector('form select[name="service"]');
   if (select) {
     const match = Array.from(select.options).find(
       (o) => o.value === requestedService || o.text === requestedService
