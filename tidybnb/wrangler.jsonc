@@ -1,0 +1,9 @@
+{
+  // Cloudflare configuration for serving the TidyBnB static site.
+  // No server-side code — Cloudflare just serves the HTML/CSS/JS files.
+  "name": "tidybnb",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./"
+  }
+}
