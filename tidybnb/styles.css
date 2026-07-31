@@ -2,34 +2,34 @@
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
-  --bg-alt: #faf7f1;        /* warm sand (light) */
-  --ink: #1a3b35;           /* deep teal (softened) */
-  --ink-soft: #5f716b;
-  --brand: #0f9184;         /* fresh teal */
-  --brand-2: #16a594;       /* light teal */
-  --sand: #e7d8b8;          /* accent sand */
-  --line: #e6e2d7;
+  --bg-alt: #f5f6fb;        /* cool light */
+  --ink: #1a1b3a;           /* deep indigo-navy */
+  --ink-soft: #5c5f7e;
+  --brand: #4f46e5;         /* indigo */
+  --brand-2: #6366f1;       /* light indigo */
+  --sand: #e7e8fc;          /* soft indigo wash */
+  --line: #e7e8f3;
   --radius: 16px;
-  --shadow: 0 12px 34px rgba(20, 52, 47, 0.10);
+  --shadow: 0 14px 36px rgba(30, 27, 75, 0.12);
   --container: 1140px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0e1f1c; --surface: #16302b; --bg-alt: #122a25;
-    --ink: #edf3f0; --ink-soft: #9fb2ab; --brand: #34c5ac; --brand-2: #56d6bd;
-    --sand: #3a4a3f; --line: #234139; --shadow: 0 12px 34px rgba(0,0,0,0.35);
+    --bg: #0e0f1e; --surface: #191a2e; --bg-alt: #14152a;
+    --ink: #edeefb; --ink-soft: #a6a8c8; --brand: #8f88ff; --brand-2: #a99bff;
+    --sand: #26264a; --line: #2a2b47; --shadow: 0 14px 36px rgba(0,0,0,0.42);
   }
 }
 :root[data-theme="light"] {
-  --bg: #ffffff; --surface: #ffffff; --bg-alt: #faf7f1;
-  --ink: #1a3b35; --ink-soft: #5f716b; --brand: #0f9184; --brand-2: #16a594;
-  --sand: #e7d8b8; --line: #e6e2d7; --shadow: 0 12px 34px rgba(20,52,47,0.10);
+  --bg: #ffffff; --surface: #ffffff; --bg-alt: #f5f6fb;
+  --ink: #1a1b3a; --ink-soft: #5c5f7e; --brand: #4f46e5; --brand-2: #6366f1;
+  --sand: #e7e8fc; --line: #e7e8f3; --shadow: 0 14px 36px rgba(30,27,75,0.12);
 }
 :root[data-theme="dark"] {
-  --bg: #0e1f1c; --surface: #16302b; --bg-alt: #122a25;
-  --ink: #edf3f0; --ink-soft: #9fb2ab; --brand: #34c5ac; --brand-2: #56d6bd;
-  --sand: #3a4a3f; --line: #234139; --shadow: 0 12px 34px rgba(0,0,0,0.35);
+  --bg: #0e0f1e; --surface: #191a2e; --bg-alt: #14152a;
+  --ink: #edeefb; --ink-soft: #a6a8c8; --brand: #8f88ff; --brand-2: #a99bff;
+  --sand: #26264a; --line: #2a2b47; --shadow: 0 14px 36px rgba(0,0,0,0.42);
 }
 
 * { box-sizing: border-box; }
@@ -60,7 +60,7 @@ img { max-width: 100%; }
 .btn-ghost { border-color: var(--line); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--brand); color: var(--brand); }
 .btn-white { background: #fff; color: var(--brand); }
-.btn-white:hover { background: #f0fbf8; }
+.btn-white:hover { background: #f1f0fe; }
 .btn-block { width: 100%; text-align: center; }
 .btn-sm { padding: 0.6rem 1.1rem; font-size: 0.9rem; }
 
@@ -134,7 +134,7 @@ img { max-width: 100%; }
 .service-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.45s ease; }
 .service-card:hover .service-media img { transform: scale(1.06); }
 .price-badge { position: absolute; top: 12px; right: 12px; background: rgba(255,255,255,0.95);
-  color: #0e7d70; font-weight: 800; font-size: 0.82rem; padding: 0.4rem 0.75rem; border-radius: 999px; }
+  color: #4338ca; font-weight: 800; font-size: 0.82rem; padding: 0.4rem 0.75rem; border-radius: 999px; }
 .service-body { padding: 1.6rem; display: flex; flex-direction: column; flex: 1; }
 .service-body h3 { font-size: 1.3rem; margin-bottom: 0.3rem; }
 .price-line { color: var(--brand); font-weight: 700; font-size: 0.98rem; margin: 0 0 0.7rem; }

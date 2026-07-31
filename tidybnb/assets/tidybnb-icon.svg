@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs><linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/></linearGradient></defs>
+  <rect width="48" height="48" fill="#ffffff"/>
+  <rect x="3" y="3" width="42" height="42" rx="13" fill="url(#tbg)"/>
+  <path d="M11.5 26 24 14 36.5 26Z" fill="#fff"/>
+  <rect x="15.5" y="24.5" width="17" height="13" rx="2.5" fill="#fff"/>
+  <rect x="21.5" y="30" width="5" height="7.6" rx="1.4" fill="#4338ca"/>
+  <path d="M34 12.2l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1z" fill="#c7d2fe"/>
+</svg>
