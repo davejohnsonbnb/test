@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us — TidyBnB | Get a Free Rental Cleaning Quote</title>
-  <meta name="description" content="Contact TidyBnB for a free short-term rental cleaning quote in Islamabad, Lahore and across Pakistan. Email contact@tidybnbpk.com." />
+  <title>Contact — TidyBnB | Get a Free Rental Cleaning Quote</title>
+  <meta name="description" content="Contact TidyBnB for a free short-term rental cleaning quote in Lahore, Islamabad and Karachi. Email contact@tidybnbpk.com or call +92 319 0750148." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>" />
 </head>
 <body>
+  <div class="topbar"></div>
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a href="index.html" class="brand" aria-label="TidyBnB — home">
@@ -26,7 +27,7 @@
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About&nbsp;Us</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html" class="nav-cta active">Get a quote</a></li>
         </ul>
       </nav>
@@ -36,35 +37,34 @@
   <main>
     <section class="page-hero">
       <div class="container">
-        <p class="eyebrow">Contact us</p>
-        <h1>Get a free quote</h1>
+        <p class="eyebrow on-dark">Contact us</p>
+        <h1>Get a free quote.</h1>
         <p class="lead">Tell us about your property and we'll send a fast, honest quote — usually within one business day.</p>
       </div>
     </section>
 
-    <section class="section" style="padding-top:1rem;">
-      <div class="container contact-inner">
-        <div class="contact-text">
-          <h2>Let's talk</h2>
-          <p>Whether it's one condo or a portfolio of villas, we'd love to help keep your rentals guest-ready. Reach out and we'll take it from there.</p>
-          <ul class="contact-details">
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Let's talk.</h2>
+          <p style="color:var(--ink-soft);">Whether it's one flat or a portfolio of homes, we'd love to help keep your rentals guest-ready across Lahore, Islamabad and Karachi.</p>
+          <ul class="cdetails">
             <li>📧 Email: <a href="mailto:contact@tidybnbpk.com">contact@tidybnbpk.com</a></li>
             <li>📞 Phone: <a href="tel:+923190750148">+92 319 0750148</a></li>
             <li>📍 Address: 29 Queens Road, Lahore</li>
-            <li>📍 Serving: Lahore, Islamabad, Karachi &amp; across Pakistan</li>
             <li>🕘 Response time: within 1 business day</li>
           </ul>
-          <div class="areas">
-            <span class="area-pill">Islamabad</span>
-            <span class="area-pill">Lahore</span>
-            <span class="area-pill">Karachi</span>
-            <span class="area-pill">More of Pakistan</span>
+          <div class="areas" style="margin-top:1.25rem;">
+            <span class="pill">Lahore</span>
+            <span class="pill">Islamabad</span>
+            <span class="pill">Karachi</span>
+            <span class="pill">Same-day available</span>
           </div>
         </div>
 
-        <!-- Powered by FormSubmit (no account needed). First submission sends an
-             activation link to contact@tidybnbpk.com — click it once to switch it on. -->
-        <form class="contact-form" action="https://formsubmit.co/contact@tidybnbpk.com" method="POST">
+        <!-- Powered by FormSubmit. First submission sends an activation link to
+             contact@tidybnbpk.com — click it once to switch it on. -->
+        <form class="form" action="https://formsubmit.co/contact@tidybnbpk.com" method="POST">
           <input type="hidden" name="_subject" value="New quote request — TidyBnB website" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
@@ -77,9 +77,9 @@
             <input type="email" name="email" required placeholder="you@email.com" />
           </label>
           <label>Property location &amp; type
-            <input type="text" name="property" placeholder="e.g. 1-bed condo, Islamabad" />
+            <input type="text" name="property" placeholder="e.g. 1-bed flat, Lahore" />
           </label>
-          <label>Which services are you interested in?
+          <label>Which service are you interested in?
             <select name="service">
               <option value="">Select a service…</option>
               <option>Turnover Cleaning</option>
@@ -91,7 +91,7 @@
             </select>
           </label>
           <label>Message
-            <textarea name="message" rows="4" required placeholder="How often do you need cleaning? Anything we should know?"></textarea>
+            <textarea name="message" rows="4" required placeholder="How often do you need cleaning? Same-day needed?"></textarea>
           </label>
           <button type="submit" class="btn btn-primary btn-block">Send &amp; get my quote</button>
           <p class="form-note">Prefer email? Write to <a href="mailto:contact@tidybnbpk.com">contact@tidybnbpk.com</a></p>
@@ -114,14 +114,14 @@
             </svg>
             <span class="brand-name">TidyBnB</span>
           </div>
-          <p class="footer-about">Professional cleaning and property care for short-term rentals across Islamabad, Lahore and Pakistan. Spotless turnovers, every stay.</p>
+          <p class="footer-about">Professional cleaning and property care for short-term rentals across Lahore, Islamabad and Karachi. Spotless turnovers, every stay.</p>
         </div>
         <div class="footer-col">
           <h4>Company</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
