@@ -1,51 +1,54 @@
 {
- "date": "2026-07-20",
+ "date": "2026-09-21",
  "vp": {
   "Authors": {
-   "won": 20
+   "won": 25
   },
-  "Aurora": {
-   "won": 23
+  "Kensington": {
+   "won": 78
   },
   "BlueBreeze": {
    "won": 1
   },
-  "Aya": {
-   "won": 10
+  "SkyHomes": {
+   "won": 39
+  },
+  "MKB": {
+   "won": 0
+  },
+  "Royal Vista": {
+   "won": 101
   },
   "EliteNest": {
-   "won": 7
+   "won": 25
   },
-  "Kensington": {
-   "won": 64
+  "Utopix": {
+   "won": 18
+  },
+  "Aurora": {
+   "won": 23
+  },
+  "Aya": {
+   "won": 10
   },
   "LuxeManor": {
    "won": 4
   },
+  "Noya Living": {
+   "won": 0
+  },
   "Yado": {
    "won": 15
-  },
-  "Royal Vista": {
-   "won": 61
-  },
-  "SkyHomes": {
-   "won": 30
-  },
-  "Utopix": {
-   "won": 15
-  },
-  "MKB": {
-   "won": 0
   },
   "Zarrien": {
    "won": 2
   }
  },
  "inter": {
-  "won": 95,
-  "ongoing": 12,
-  "lost": 13,
-  "pending": 24,
-  "won_received_thb": 1699196
+  "won": 106,
+  "ongoing": 9,
+  "lost": 30,
+  "pending": 10,
+  "won_received_thb": 2174003
  }
 }
