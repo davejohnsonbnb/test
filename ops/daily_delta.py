@@ -30,7 +30,7 @@ def run(vpx, inx, date, snap_path):
         if col=='green': tot+=amt(v.get('K',('',''))[0]) or 0
     dwon=st['green']-bi['won']
     print("VP vs %s: %s"%(base['date'], changed if changed else "NONE"))
-    print("Inter: Won %d(%+d) Ongoing %d(%+d) Lost %d(%+d) Pending %d(%+d) recv%+,.0f"%(
+    print("Inter: Won {}({:+d}) Ongoing {}({:+d}) Lost {}({:+d}) Pending {}({:+d}) recv{:+,.0f}".format(
         st['green'],dwon,st['yellow'],st['yellow']-bi['ongoing'],st['red'],st['red']-bi['lost'],
         st['none'],st['none']-bi['pending'],tot-bi['won_received_thb']))
     if dwon>0:
