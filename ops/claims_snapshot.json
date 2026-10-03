@@ -1,11 +1,14 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "vp": {
   "Authors": {
-   "won": 27
+   "won": 28
   },
   "Kensington": {
-   "won": 83
+   "won": 84
+  },
+  "Utopix": {
+   "won": 18
   },
   "BlueBreeze": {
    "won": 1
@@ -21,9 +24,6 @@
   },
   "EliteNest": {
    "won": 32
-  },
-  "Utopix": {
-   "won": 18
   },
   "Aurora": {
    "won": 23
