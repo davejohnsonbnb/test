@@ -1,5 +1,5 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-06",
  "vp": {
   "Authors": {
    "won": 28
@@ -9,6 +9,9 @@
   },
   "Utopix": {
    "won": 18
+  },
+  "Noya Living": {
+   "won": 0
   },
   "BlueBreeze": {
    "won": 1
@@ -33,9 +36,6 @@
   },
   "LuxeManor": {
    "won": 4
-  },
-  "Noya Living": {
-   "won": 0
   },
   "Yado": {
    "won": 15
