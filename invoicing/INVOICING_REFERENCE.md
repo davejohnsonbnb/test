@@ -1,0 +1,77 @@
+# Invoicing — Standing Reference
+
+This session/repo is the hub for all client invoicing.
+
+## Issuer (fixed on every invoice)
+- B N B Pro Information Technology L.L.C
+- TRN: 104844103200003
+- 3 145 Office NO, Dubai, Dubai 25314
+- +13322522342 · ahmed@virtupro.io · www.virtupro.io
+- Title: "Tax Invoice" · Terms: "Due on receipt"
+
+## Invoice numbering policy
+- **Per-client OS### sequences.** Each client has its own running OS number.
+- Numbers CAN overlap across clients (e.g. StayC OS242 and Noya OS242 both exist) —
+  this is expected and fine. Uniqueness is only within a single client's run.
+- Claude assigns the next number within the relevant client's sequence and maintains
+  `LEDGER.md` (grouped by client).
+
+---
+
+## Client: StayC Group
+- Address: Soenenspark 1, 9051 Gent, Belgium · VAT BE0792754175
+- Currency: **USD only** (no AED / no FX line)
+- Tax: Zero Rated (VAT @ 0%)
+- Typical lines: "E-Services — StayC" (3,000.00) and "E-Services — StayC Organisation" (2,568.00)
+- Per-unit rate when billed per unit: 12.00
+- Billing cycle: monthly, period "7 <month> to 7 <next month>"
+- Layout: HTML template (dark header band), rendered to A4 PDF via Chromium.
+
+## Client: SKY VACATION HOME RENTAL L.L.C
+- Address / VAT / TRN: NOT CAPTURED (uploaded invoice omitted them)
+- Currency: **AED**
+- Tax: Standard Rated 5% (DXB)
+- Typical lines: "E-Services" @ 180.00 + "E-Services (Discounted Units)" @ 90.00
+- Billing cycle: monthly, period "18 <month> to 17 <next month>"
+
+## Client: NOYA LIVING VACATION HOMES -LLC
+- Currency: **AED** · Terms: due on receipt
+- Tax: VAT 5%, line tax code "SR  Standard Rated (DXB)"
+- Pricing: 7 units @ AED 300 per unit per month
+- **Minimum monthly charge AED 3,000 (before VAT).** If units × rate < 3,000, add a
+  top-up line to reach 3,000. (Minimum was WAIVED for the first month, OS240.)
+- Billing cycle: previously 15th→15th; now **7th → 7th** of every month.
+- Partial periods prorated over a 30-day month (days / 30).
+- Full-month steady state: 7 × 300 = 2,100 + top-up 900 = 3,000 + VAT 150 = **AED 3,150.00**.
+  Same every full month until unit count exceeds 10.
+- Layout: **match OS241 exactly** — US Letter, Helvetica/Helvetica-Bold; accent teal
+  #0E909A (title, column heads, rule); header band fill #D6ECEE; title "Tax Invoice" 23pt
+  teal; columns DATE, DESCRIPTION, TAX, QTY, RATE, AMOUNT; each line "Services" bold + period
+  + grey note; totals SUBTOTAL / VAT TOTAL / TOTAL / BALANCE DUE (15pt bold); VAT SUMMARY
+  table RATE, VAT, NET. Built with Python **reportlab** → `noya_invoice_template.py`.
+- TODO: real logo file still needed (original PDF had a broken black box; removed).
+- TODO: the reportlab template `noya_invoice_template.py` has NOT yet been rebuilt in this
+  repo; to match OS241 pixel-for-pixel I need the OS241 PDF. Build + verify at next generation.
+- OS241 minimum = **prorated** (AED 2,310.00), per confirmation.
+
+---
+
+## Client master directory (source: BNB_Clients_detial.xlsx)
+All AED / UAE unless noted. "Per unit" = monthly per-unit cost.
+
+| Client | Address | Per unit | TRN / VAT |
+|---|---|---|---|
+| Authors Vacation Rental | — | AED 300 | — |
+| Royal Vista Vacations Homes Co L.L.C | Dubai Business Bay, Churchill Tower, Office 508, Dubai, UAE | AED 300 (AED 200 if ≥ 20 listings) | 104892061300003 |
+| BLUE BREEZE HOLIDAY HOMES L.L.C | Mashreq Globe HQ, Umminiyat Street, Downtown Burj Khalifa Community, Dubai | AED 250 | 104611129800003 |
+| Kensington Holiday Homes Rental LLC | Dubai, مبنى الديار ملك عبدالرحمن الرستامين, الوصل | Minimum slab of AED 3,000 ("we effect minimum slab of 3k") | — |
+| MKB LIVING Holiday Homes L.L.C. | Al Khabeesi bldg, plot 128-246-9, Dubai, UAE | AED 300 | — |
+| SKY VACATION HOME RENTAL L.L.C | — | AED 300 (⚠️ issued OS249 used 180 / 90 — confirm) | — |
+| The IST Company FZE - LLC | Business Centre, Sharjah Publishing City Free Zone, UAE | AED 300 | 104154605000003 |
+| Utopix Holiday Home LLC | — | AED 300 | — |
+| StayC Group | Soenenspark 1, 9051 Gent, Belgium | Invoice for USD 3,000 (zero-rated, USD) | BE0792754175 |
+
+Notes / gaps:
+- Addresses/TRNs blank above were blank in the source sheet.
+- Noya Living is not in the sheet; its profile is captured above from the Noya brief.
+- Royal Vista has a volume tier: AED 200/unit once 20+ listings are reached.
