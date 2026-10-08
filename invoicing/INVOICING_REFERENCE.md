@@ -9,6 +9,11 @@ This session/repo is the hub for all client invoicing.
 - +13322522342 · ahmed@virtupro.io · www.virtupro.io
 - Title: "Tax Invoice" · Terms: "Due on receipt"
 
+## Workflow rule — unit counts
+- **Before generating ANY invoice, Claude must ask the user for the live unit count**
+  for that client/period. The user supplies the current count, and the invoice is
+  built on that number. Never assume or carry over a previous period's count.
+
 ## Invoice numbering policy
 - **Per-client OS### sequences.** Each client has its own running OS number.
 - Numbers CAN overlap across clients (e.g. StayC OS242 and Noya OS242 both exist) —
