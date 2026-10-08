@@ -9,6 +9,14 @@ This session/repo is the hub for all client invoicing.
 - +13322522342 · ahmed@virtupro.io · www.virtupro.io
 - Title: "Tax Invoice" · Terms: "Due on receipt"
 
+## Global pricing rule — minimum retainer slab
+- **Minimum retainer: AED 3,000 (before VAT) on every invoice.**
+- If (units × per-unit rate) < 3,000, add a top-up line so the subtotal reaches 3,000.
+  Example: a client dropping to 5/6/9 units still pays the AED 3,000 minimum.
+- VAT (where applicable, 5%) is charged on the slab-adjusted subtotal.
+- Known exceptions: first-month waivers may apply per client (e.g. Noya OS240 waived);
+  StayC Group is a separate USD retainer arrangement, not this AED slab.
+
 ## Workflow rule — unit counts
 - **Before generating ANY invoice, Claude must ask the user for the live unit count**
   for that client/period. The user supplies the current count, and the invoice is
