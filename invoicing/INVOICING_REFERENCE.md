@@ -9,6 +9,19 @@ This session/repo is the hub for all client invoicing.
 - +13322522342 · ahmed@virtupro.io · www.virtupro.io
 - Title: "Tax Invoice" · Terms: "Due on receipt"
 
+## Billing dates (active clients)
+| Client | Billing date / cycle |
+|---|---|
+| Royal Vista Vacations Homes Co L.L.C | 1st of every month |
+| BLUE BREEZE HOLIDAY HOMES L.L.C | 1st of every month |
+| Kensington Holiday Homes Rental LLC | 1st of every month |
+| Utopix Holiday Home LLC | 1st of every month |
+| The IST Company FZE - LLC (Elite Nest) | 1st of every month |
+| MKB LIVING Holiday Homes L.L.C. | 17th of every month |
+| Noya Living Vacation Homes -LLC | 7th → 7th of every month |
+| StayC Group | 7th → 7th of every month |
+| One Stone (claims) | No fixed date — ad hoc, 20% success fee |
+
 ## Global pricing rule — minimum retainer slab
 - **Minimum retainer: AED 3,000 (before VAT) on every invoice.**
 - If (units × per-unit rate) < 3,000, add a top-up line so the subtotal reaches 3,000.
