@@ -22,6 +22,13 @@ This session/repo is the hub for all client invoicing.
   for that client/period. The user supplies the current count, and the invoice is
   built on that number. Never assume or carry over a previous period's count.
 
+## Banking / receiving funds
+- **Current:** payments received into **Wio (Dubai)** bank account.
+- **Transitioning to Wise** (registration/setup in progress). Once live, all invoices
+  will be received into Wise.
+- Wise receiving details not yet provided — user will send them; update the invoice
+  payment block at that point. (Do not guess account details.)
+
 ## Business line — Claims Management
 Separate from the holiday-homes retainer invoicing.
 - **Billing model: flat 20% of whatever we earn/recover for the client** (success fee).
