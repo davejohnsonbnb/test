@@ -22,6 +22,18 @@ This session/repo is the hub for all client invoicing.
   for that client/period. The user supplies the current count, and the invoice is
   built on that number. Never assume or carry over a previous period's count.
 
+## Business line — Claims Management
+Separate from the holiday-homes retainer invoicing.
+- **Billing model: flat 20% of whatever we earn/recover for the client** (success fee).
+- NO fixed retainer, NO minimum slab (the AED 3,000 slab does NOT apply here), NO VAT
+  assumption until confirmed, and NO fixed invoice date — issued **ad hoc, only when the
+  user says so**. User provides the recovered amount; invoice bills 20% of it.
+
+### Claims clients
+| Client | Contact | Phone | Fee |
+|---|---|---|---|
+| One Stone | Ali Raza | +1 (832) 398-4597 | 20% of amount earned/recovered |
+
 ## Invoice numbering policy
 - **Per-client OS### sequences.** Each client has its own running OS number.
 - Numbers CAN overlap across clients (e.g. StayC OS242 and Noya OS242 both exist) —
