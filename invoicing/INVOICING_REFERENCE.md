@@ -57,11 +57,11 @@ Separate from the holiday-homes retainer invoicing.
 ## Invoice numbering policy (IN-HOUSE — resets old OS scheme)
 - Old external "OS###" numbering is retired. We run our own per-client prefixes, each
   starting at 001 and incrementing by 1.
-- Prefixes (★ = given by user, others proposed pending confirmation):
+- Prefixes (all CONFIRMED by user):
   | Client | Prefix | Currency |
   |---|---|---|
-  | Kensington Holiday Homes Rental LLC | KHH ★ | AED |
-  | Royal Vista Vacations Homes Co L.L.C | RV ★ | AED |
+  | Kensington Holiday Homes Rental LLC | KHH | AED |
+  | Royal Vista Vacations Homes Co L.L.C | RV | AED |
   | BLUE BREEZE HOLIDAY HOMES L.L.C | BBH | AED |
   | MKB LIVING Holiday Homes L.L.C. | MKB | AED |
   | The IST Company FZE - LLC (Elite Nest) | IST | AED |
@@ -78,7 +78,8 @@ Separate from the holiday-homes retainer invoicing.
 ## Tax (business now US-based) — UNDER REVIEW
 - US has no VAT; only state sales tax. Services sold to foreign clients (UAE, Belgium)
   are generally NOT subject to US sales tax.
-- **Default for now: NO tax line on invoices**, pending confirmation from a US CPA.
+- **Default for now: NO tax line on invoices**, pending confirmation. User is checking
+  with their legal team and will advise.
 - ⚠️ Issuer block still shows UAE entity (BNB Pro IT L.L.C + UAE TRN + Dubai address).
   If the business is now a US entity, need new US legal name, US address, and EIN to
   update the invoice header. Not yet provided — keep old block until then.
