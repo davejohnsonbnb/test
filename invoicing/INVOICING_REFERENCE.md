@@ -54,12 +54,39 @@ Separate from the holiday-homes retainer invoicing.
 |---|---|---|---|
 | One Stone | Ali Raza | +1 (832) 398-4597 | 20% of amount earned/recovered |
 
-## Invoice numbering policy
-- **Per-client OS### sequences.** Each client has its own running OS number.
-- Numbers CAN overlap across clients (e.g. StayC OS242 and Noya OS242 both exist) —
-  this is expected and fine. Uniqueness is only within a single client's run.
-- Claude assigns the next number within the relevant client's sequence and maintains
-  `LEDGER.md` (grouped by client).
+## Invoice numbering policy (IN-HOUSE — resets old OS scheme)
+- Old external "OS###" numbering is retired. We run our own per-client prefixes, each
+  starting at 001 and incrementing by 1.
+- Prefixes (★ = given by user, others proposed pending confirmation):
+  | Client | Prefix | Currency |
+  |---|---|---|
+  | Kensington Holiday Homes Rental LLC | KHH ★ | AED |
+  | Royal Vista Vacations Homes Co L.L.C | RV ★ | AED |
+  | BLUE BREEZE HOLIDAY HOMES L.L.C | BBH | AED |
+  | MKB LIVING Holiday Homes L.L.C. | MKB | AED |
+  | The IST Company FZE - LLC (Elite Nest) | IST | AED |
+  | Utopix Holiday Home LLC | UTX | AED |
+  | Noya Living Vacation Homes -LLC | NOYA | AED |
+  | StayC Group | STC | USD |
+  | One Stone (claims) | ONE | USD |
+- First invoice for each client under the new scheme = PREFIX + 001.
+
+## Currency
+- **USD:** StayC Group, One Stone (claims).
+- **AED:** all other active clients.
+
+## Tax (business now US-based) — UNDER REVIEW
+- US has no VAT; only state sales tax. Services sold to foreign clients (UAE, Belgium)
+  are generally NOT subject to US sales tax.
+- **Default for now: NO tax line on invoices**, pending confirmation from a US CPA.
+- ⚠️ Issuer block still shows UAE entity (BNB Pro IT L.L.C + UAE TRN + Dubai address).
+  If the business is now a US entity, need new US legal name, US address, and EIN to
+  update the invoice header. Not yet provided — keep old block until then.
+
+## Template
+- **House standard = the Noya teal template (OS241 style)** for ALL clients.
+  (US Letter, Helvetica, teal #0E909A accents, header band #D6ECEE, reportlab.)
+- Still need: the OS241 reference PDF (exact match) and the real logo file.
 
 ---
 
