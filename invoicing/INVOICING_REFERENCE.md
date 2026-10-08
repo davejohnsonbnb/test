@@ -27,7 +27,7 @@ This session/repo is the hub for all client invoicing.
 - Billing cycle: monthly, period "7 <month> to 7 <next month>"
 - Layout: HTML template (dark header band), rendered to A4 PDF via Chromium.
 
-## Client: SKY VACATION HOME RENTAL L.L.C
+## Client: SKY VACATION HOME RENTAL L.L.C  — **INACTIVE (no longer a client)**
 - Address / VAT / TRN: NOT CAPTURED (uploaded invoice omitted them)
 - Currency: **AED**
 - Tax: Standard Rated 5% (DXB)
@@ -61,13 +61,13 @@ All AED / UAE unless noted. "Per unit" = monthly per-unit cost.
 
 | Client | Address | Per unit | TRN / VAT |
 |---|---|---|---|
-| Authors Vacation Rental | — | AED 300 | — |
+| ~~Authors Vacation Rental~~ **(INACTIVE — no longer a client)** | — | AED 300 | — |
 | Royal Vista Vacations Homes Co L.L.C | Dubai Business Bay, Churchill Tower, Office 508, Dubai, UAE | AED 300 (AED 200 if ≥ 20 listings) | 104892061300003 |
 | BLUE BREEZE HOLIDAY HOMES L.L.C | Mashreq Globe HQ, Umminiyat Street, Downtown Burj Khalifa Community, Dubai | AED 250 | 104611129800003 |
 | Kensington Holiday Homes Rental LLC | Dubai, مبنى الديار ملك عبدالرحمن الرستامين, الوصل | Minimum slab of AED 3,000 ("we effect minimum slab of 3k") | — |
 | MKB LIVING Holiday Homes L.L.C. | Al Khabeesi bldg, plot 128-246-9, Dubai, UAE | AED 300 | — |
-| SKY VACATION HOME RENTAL L.L.C | — | AED 300 (⚠️ issued OS249 used 180 / 90 — confirm) | — |
-| The IST Company FZE - LLC | Business Centre, Sharjah Publishing City Free Zone, UAE | AED 300 | 104154605000003 |
+| ~~SKY VACATION HOME RENTAL L.L.C~~ **(INACTIVE — no longer a client)** | — | AED 300 (historic; OS249 used 180 / 90) | — |
+| The IST Company FZE - LLC — **known internally as "ELITE NEST"** (paperwork & invoices MUST use legal name "The IST Company FZE - LLC") | Business Centre, Sharjah Publishing City Free Zone, UAE | AED 300 | 104154605000003 |
 | Utopix Holiday Home LLC | — | AED 300 | — |
 | StayC Group | Soenenspark 1, 9051 Gent, Belgium | Invoice for USD 3,000 (zero-rated, USD) | BE0792754175 |
 
